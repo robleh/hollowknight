@@ -1,8 +1,5 @@
-# Assembly Line Start (WIP)
-A starter project to compile C++ to Windows Position Independent Code.
-
-For more information about [Assembly Line](https://github.com/robleh/assemblyline)
-check out the main repo.
+# Hollow Knight
+PE hollowing PIC implemented using [Assembly Line](https://github.com/robleh/assemblyline).
 
 ## Requirements
 - MSVC or Clang toolchain
