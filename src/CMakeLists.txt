@@ -24,3 +24,8 @@ add_pic(${PROJECT_NAME} "entry.cpp" "phantom.cpp" PUBLIC_HEADER "hollowknight.hp
 target_link_libraries(${PROJECT_NAME}-pe PRIVATE payload-header)
 target_compile_definitions(${PROJECT_NAME}-pe PRIVATE HOST_DLL="$<TARGET_FILE:stub-dll>")
 add_dependencies(${PROJECT_NAME}-pe stub-dll)
+
+if (AL_TESTS)
+    target_link_libraries(al-test PRIVATE ${PROJECT_NAME})
+    target_sources(al-test PRIVATE hollowknight_test.cpp)
+endif()
