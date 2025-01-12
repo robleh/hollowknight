@@ -1,5 +1,6 @@
 # Hollow Knight
-PE hollowing PIC implemented using [Assembly Line](https://github.com/robleh/assemblyline).
+Proof of concept phantom dll hollowing PIC implemented using
+[Assembly Line](https://github.com/robleh/assemblyline).
 
 ## Requirements
 - MSVC or Clang toolchain

@@ -1,0 +1,1 @@
+add_library(stub-dll SHARED "main.cpp")
